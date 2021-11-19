@@ -1,0 +1,58 @@
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: max-content;
+	min-height: 100vh;
+	padding: {
+		top: $dimen__navbar--height + 50px;
+		bottom: 50px;
+	}
+
+	&__banner {
+		display: block;
+		width: $dimen__banner--width;
+		height: max-content;
+
+		&--cta {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			width: max-content;
+			height: $dimen__button--height;
+			padding: 0 30px;
+			background-color: $color__dark;
+			color: $color__light;
+			font-size: 20px;
+			transition: all 0.3s ease-in-out;
+			transition-property: background-color;
+
+			&:hover {
+				background-color: $color__dark--900;
+			}
+		}
+
+		&--description {
+			font-size: 20px;
+			line-height: 35px;
+			margin: {
+				bottom: 50px;
+			}
+
+			a {
+				text-decoration: underline;
+			}
+		}
+
+		&--heading {
+			font-family: $font__heading;
+			font-size: 35px;
+			line-height: 60px;
+			margin: {
+				bottom: 25px;
+			}
+		}
+	}
+}

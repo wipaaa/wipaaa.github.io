@@ -1,0 +1,184 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: block;
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  min-width: 100vw;
+  min-height: 100vh;
+  font-family: "Raleway";
+}
+
+body a {
+  color: #242020;
+  text-decoration: none;
+}
+
+body ul {
+  list-style-type: none;
+}
+
+body .container {
+  width: 80% !important;
+  margin: auto;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  padding: 0% 10%;
+  background-color: #ffffff;
+  z-index: 9;
+}
+
+.navbar__logo {
+  font-family: "Playfair Display";
+  font-size: 20px;
+}
+
+.navbar__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.navbar__nav--link {
+  color: rgba(36, 32, 32, 0.5);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition-property: color, -webkit-text-decoration;
+  transition-property: color, -webkit-text-decoration;
+  transition-property: color, text-decoration;
+  transition-property: color, text-decoration, -webkit-text-decoration;
+}
+
+.navbar__nav--link:hover {
+  color: #242020;
+  text-decoration: underline;
+}
+
+.navbar__nav--link.--active {
+  color: #242020;
+  text-decoration: underline;
+}
+
+.navbar__nav--list {
+  display: block;
+  margin-left: 50px;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  min-height: 100vh;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.content__banner {
+  display: block;
+  width: 680px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.content__banner--cta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: 60px;
+  padding: 0 30px;
+  background-color: #242020;
+  color: #ffffff;
+  font-size: 20px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+}
+
+.content__banner--cta:hover {
+  background-color: rgba(36, 32, 32, 0.9);
+}
+
+.content__banner--description {
+  font-size: 20px;
+  line-height: 35px;
+  margin-bottom: 50px;
+}
+
+.content__banner--description a {
+  text-decoration: underline;
+}
+
+.content__banner--heading {
+  font-family: "Playfair Display";
+  font-size: 35px;
+  line-height: 60px;
+  margin-bottom: 25px;
+}
+/*# sourceMappingURL=app.css.map */
